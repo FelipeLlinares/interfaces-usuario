@@ -70,8 +70,8 @@
 
           <form class="card p-2">
             <div class="input-group">
-              <label for="promoCode">Promo code</label>
-              <input type="text" class="form-control" placeholder="Promo code" id="Promocode">
+              <label for="promoCode">Promo code</label><br>
+              <input type="text" class="form-control" id="promoCode">
               <button type="submit" class="btn btn-secondary">Redeem</button>
             </div>
           </form>
@@ -160,18 +160,19 @@
             </div>
 
             <hr class="my-4">
-
+          <fieldset>
+            <legend>Completa siguienetes datos:</legend>
             <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="same-address">
-              <label class="form-check-label" for="same-address">Shipping address is the same as my billing
-                address</label>
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address">Shipping address is the same as my billing
+                address</label>     
             </div>
 
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="save-info">
               <label class="form-check-label" for="save-info">Save this information for next time</label>
             </div>
-
+          </fieldset>
             <hr class="my-4">
 
             <h4 class="mb-3">Payment</h4>
